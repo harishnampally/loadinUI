@@ -1,0 +1,341 @@
+.bodyload{
+    background: black;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.containerload{
+    width: 40vw;
+    height: 40vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+}
+.commonload{
+    height: 5vw;
+    max-height: 100%;
+    overflow: auto;
+    width: 2vw;
+    margin: auto;
+    max-width: 100%;
+    position: absolute;
+    background-color: ;
+    border-radius: 0vw 10vw 0vw 10vw;
+    box-shadow: inset 0vw 0vw 0vw .1vw #E645D0,0vw 0vw 1.5vw 0vw #e645d0;
+}
+.loadone {
+    transform: rotate(45deg);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 7.5vw;
+}
+.loadtwo {
+    transform: rotate(90deg);
+    left: 5.5vw;
+    right: 0;
+    top: 0;
+    bottom: 5.5vw;
+}
+.loadthree {
+    transform: rotate(135deg);
+    left: 7.5vw;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.loadfour {
+    transform: rotate(180deg);
+    left: 5.5vw;
+    right: 0;
+    top: 5.5vw;
+    bottom: 0;
+}
+.loadfive {
+    transform: rotate(225deg);
+    left: 0;
+    right: 0;
+    top: 7.5vw;
+    bottom: 0;
+}
+.loadsix {
+    transform: rotate(270deg);
+    left: 0;
+    right: 5.5vw;
+    top: 5.5vw;
+    bottom: 0;
+}
+.loadseven {
+    transform: rotate(315deg);
+    left: 0;
+    right: 7.5vw;
+    top: 0;
+    bottom: 0;
+}
+.loadeight {
+    transform: rotate(360deg);
+    left: 0;
+    right: 5.5vw;
+    top: 0;
+    bottom: 5.5vw;
+}
+.loadbar{
+    width: 12vw;
+    height: .25vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 16vw;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+    background: #E645D0;
+}
+.loadprogress{
+    width: 12vw;
+    height: .5vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+    background: #17E1E6;
+}
+.loadone{
+    animation: loadone 1s ease infinite;
+    -moz-animation: loadone 1s ease infinite;
+    /* Firefox*/
+    -webkit-animation: loadone 1s ease infinite;
+    /*Safari and Chrome*/ 
+    -o-animation: loadone 1s ease infinite;
+    /*opera*/
+}
+@keyframes loadone {
+    0%;
+    100%{}
+    50%{
+        background: ;
+        box-shadow: inset 0vw 0vw 0vw .1vw #17E1E6,0vw 0vw 1.5vw 0vw #17E1E6;
+    }    
+}
+.loadtwo{
+    animation: loadtwo 1s .125s ease infinite;
+    -moz-animation: loadtwo 1s .125s ease infinite;
+    /* Firefox*/
+    -webkit-animation: loadtwo 1s .125s ease infinite;
+    /*Safari and Chrome*/ 
+    -o-animation: loadtwo 1s .125s ease infinite;
+    /*opera*/
+}
+@keyframes loadtwo {
+    0%;
+    100%{}
+    50%{
+        background: ;
+        box-shadow: inset 0vw 0vw 0vw .1vw #17E1E6,0vw 0vw 1.5vw 0vw #17E1E6;
+    }    
+}
+.loadthree{
+    animation: loadthree 1s .25s ease infinite;
+    -moz-animation: loadthree 1s .25s ease infinite;
+    /* Firefox*/
+    -webkit-animation: loadthree 1s .25s ease infinite;
+    /*Safari and Chrome*/ 
+    -o-animation: loadthree 1s .25s ease infinite;
+    /*opera*/
+}
+@keyframes loadthree {
+    0%;
+    100%{}
+    50%{
+        background: ;
+        box-shadow: inset 0vw 0vw 0vw .1vw #17E1E6,0vw 0vw 1.5vw 0vw #17E1E6;
+    }    
+}
+.loadfour{
+    animation: loadfour 1s .375s ease infinite;
+    -moz-animation: loadfour 1s .375s ease infinite;
+    /* Firefox*/
+    -webkit-animation: loadfour 1s .375s ease infinite;
+    /*Safari and Chrome*/ 
+    -o-animation: loadfour 1s .375s ease infinite;
+    /*opera*/
+}
+@keyframes loadfour {
+    0%;
+    100%{}
+    50%{
+        background: ;
+        box-shadow: inset 0vw 0vw 0vw .1vw #17E1E6,0vw 0vw 1.5vw 0vw #17E1E6;
+    }    
+}
+.loadfive{
+    animation: loadfive 1s .5s ease infinite;
+    -moz-animation: loadfive 1s .5s ease infinite;
+    /* Firefox*/
+    -webkit-animation: loadfive 1s .5s ease infinite;
+    /*Safari and Chrome*/ 
+    -o-animation: loadfive 1s .5s ease infinite;
+    /*opera*/
+}
+@keyframes loadfive {
+    0%;
+    100%{}
+    50%{
+        background: ;
+        box-shadow: inset 0vw 0vw 0vw .1vw #17E1E6,0vw 0vw 1.5vw 0vw #17E1E6;
+    }    
+}
+.loadsix{
+    animation: loadsix 1s .625s ease infinite;
+    -moz-animation: loadsix 1s .625s ease infinite;
+    /* Firefox*/
+    -webkit-animation: loadsix 1s .625s ease infinite;
+    /*Safari and Chrome*/ 
+    -o-animation: loadsix 1s .625s ease infinite;
+    /*opera*/
+}
+@keyframes loadsix {
+    0%;
+    100%{}
+    50%{
+        background: ;
+        box-shadow: inset 0vw 0vw 0vw .1vw #17E1E6,0vw 0vw 1.5vw 0vw #17E1E6;
+    }    
+}
+.loadseven{
+    animation: loadseven 1s .750s ease infinite;
+    -moz-animation: loadseven 1s .750s ease infinite;
+    /* Firefox*/
+    -webkit-animation: loadseven 1s .750s ease infinite;
+    /*Safari and Chrome*/ 
+    -o-animation: loadseven 1s .750s ease infinite;
+    /*opera*/
+}
+@keyframes loadseven {
+    0%;
+    100%{}
+    50%{
+        background: ;
+        box-shadow: inset 0vw 0vw 0vw .1vw #17E1E6,0vw 0vw 1.5vw 0vw #17E1E6;
+    }    
+}
+.loadeight{
+    animation: loadeight 1s .875s ease infinite;
+    -moz-animation: loadeight 1s .875s ease infinite;
+    /* Firefox*/
+    -webkit-animation: loadeight 1s .875s ease infinite;
+    /*Safari and Chrome*/ 
+    -o-animation: loadeight 1s .875s ease infinite;
+    /*opera*/
+}
+@keyframes loadeight {
+    0%;
+    100%{}
+    50%{
+        background: ;
+        box-shadow: inset 0vw 0vw 0vw .1vw #17E1E6,0vw 0vw 1.5vw 0vw #17E1E6;
+    }    
+}
+.containerload{
+    animation: containerload 5s linear infinite;
+    -moz-animation: containerload 5s linear infinite;
+    /* Firefox*/
+    -webkit-animation: containerload 5s linear infinite;
+    /*Safari and Chrome*/ 
+    -o-animation: containerload 5s linear infinite;
+    /*opera*/
+}
+@keyframes containerload {
+   from{
+    transform: rotate(0deg);
+   }
+   to{
+    transform: rotate(-360deg);
+   }
+}
+.loadprogress{
+    animation: loadprogress 15s ease ;
+    -moz-animation: loadprogress 15s ease ;
+    /* Firefox*/
+    -webkit-animation: loadprogress 15s ease ;
+    /*Safari and Chrome*/ 
+    -o-animation: loadprogress 15s ease ;
+    /*opera*/
+}
+@keyframes loadprogress{
+    0%{
+        left: -24vw;
+    }
+    10%{
+        left: -20vw;
+    }
+    30%{
+        left: -16vw;
+    }
+    50%{
+        left: -12vw;
+    }
+    65%{
+        left: -10vw;
+    }
+    80%{
+        left: -4vw;
+    }
+    100%{
+        left: 0;
+    }
+}
+.fade-inload{
+    animation: fade-inload 2s ease ;
+    -moz-animation: fade-inload 2s ease ;
+    /* Firefox*/
+    -webkit-animation: fade-inload 2s ease ;
+    /*Safari and Chrome*/ 
+    -o-animation: fade-inload 2s ease ;
+    /*opera*/
+}
+@keyframes fade-inload{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1s;
+    }
+}
+.loadout{
+    animation: loadout 2s 15s ease ;
+    -moz-animation: loadout 2s 15s ease ;
+    /* Firefox*/
+    -webkit-animation: loadout 2s 15s ease ;
+    /*Safari and Chrome*/ 
+    -o-animation: loadout 2s 15s ease ;
+    /*opera*/
+}
+@keyframes loadout{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
